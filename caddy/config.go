@@ -8,7 +8,7 @@ import (
 	"net"
 	"sync"
 
-	"github.com/mholt/caddy/caddy/letsencrypt"
+	"github.com/mholt/caddy/kseistrup/letsencrypt"
 	"github.com/mholt/caddy/caddy/parse"
 	"github.com/mholt/caddy/caddy/setup"
 	"github.com/mholt/caddy/middleware"
