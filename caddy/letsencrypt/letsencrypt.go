@@ -528,7 +528,7 @@ const (
 // rsaKeySizeToUse is the size to use for new RSA keys.
 // This shouldn't need to change except for in tests;
 // the size can be drastically reduced for speed.
-var rsaKeySizeToUse = RSA_2048
+var rsaKeySizeToUse = RSA_4096
 
 // stopChan is used to signal the maintenance goroutine
 // to terminate.
